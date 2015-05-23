@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<button onclick="close_notice()" id="open">提示框</button>
+	<div class="notice" id="notice">
+		<span class="close-notice" id="close-notice" onclick="close_notice()">x</span>
+		<p class="notice-title">这里是标题</p>
+		<p id="notice-content">
+			这里填写自定义文字
+		</p>
+		<p class="notice-close">
+			<!-- <span class="notice-button">关闭</span> -->
+		</p>
+	</div>
+</body>
+</html>
